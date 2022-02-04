@@ -1,5 +1,4 @@
 import React from "react";
-import Movie from "../components/Movie";
 import Movies from "../components/Movies";
 import Loader from "../components/Loader";
 import Search from "../components/Search";

@@ -53,6 +53,7 @@ export default class Search extends React.Component {
                         <input className="with-gap" name="type" type="radio" data-type="series" onChange={this.handleFilter} checked={this.state.type === 'series'}/>
                         <span>Series only</span>
                     </label>
+
                 </div>
             </div>
         )
