@@ -11,3 +11,21 @@
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
     gap: 1rem;
 }
+
+
+.email_inline{
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.input-field{
+    display: flex;
+    width: 100%;
+    padding: .5rem;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    align-items: center;
+}
+
+.input-field input{
+    border: none!important;
+    margin: 0!important;
+}
